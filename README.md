@@ -40,6 +40,10 @@ As principais funcionalidades do sistema de gerenciamento de biblioteca, são:
     5.4. Durante o processo de empréstimo, o sistema deve verificar se o livro está reservado para outros usuários e priorizar o empréstimo para o usuário que fez a reserva.
 <hr>
 
+## Diagrama do banco de dados
+![Diagrama - Banco de dados](https://github.com/kamilaantunes/projeto-postgres-ada/assets/55604601/f4d7bd6c-a8ed-4f39-83fe-01a839435554)
+<hr>
+
 ## Execução do projeto
 1. Clonar este repositório em sua máquina;
 2. Instale as dependências necessárias.
