@@ -17,10 +17,10 @@ As principais funcionalidades do sistema de gerenciamento de biblioteca, são:
 <hr>
 
 ## Cenários e requisitos
-1. **Cadastro de usuários**:
-    1.1. Os usuários devem poder se cadastrar no sistema, fornecendo informações como nome, endereço, número de telefone e endereço de e-mail.
-    1.2. O sistema deve validar a unicidade do endereço de e-mail para evitar últimos cadastrados com o mesmo e-mail.
-    1.3. Deve ser possível que os usuários atualizem suas informações pessoais, como endereço ou número de telefone.
+1. **Cadastro de usuários**: <br>
+    1.1. Os usuários devem poder se cadastrar no sistema, fornecendo informações como nome, endereço, número de telefone e endereço de e-mail.<br>
+    1.2. O sistema deve validar a unicidade do endereço de e-mail para evitar últimos cadastrados com o mesmo e-mail.<br>
+    1.3. Deve ser possível que os usuários atualizem suas informações pessoais, como endereço ou número de telefone.<br>
 2. **Gerenciamento de acervo**:
     2.1. Os administradores do sistema devem ter a capacidade de adicionar, atualizar e excluir informações sobre livros.
     2.2. Cada exemplar de um livro deve ser identificado individualmente para controle de disponibilidade.
