@@ -21,22 +21,22 @@ As principais funcionalidades do sistema de gerenciamento de biblioteca, são:
     1.1. Os usuários devem poder se cadastrar no sistema, fornecendo informações como nome, endereço, número de telefone e endereço de e-mail.<br>
     1.2. O sistema deve validar a unicidade do endereço de e-mail para evitar últimos cadastrados com o mesmo e-mail.<br>
     1.3. Deve ser possível que os usuários atualizem suas informações pessoais, como endereço ou número de telefone.<br>
-2. **Gerenciamento de acervo**:
-    2.1. Os administradores do sistema devem ter a capacidade de adicionar, atualizar e excluir informações sobre livros.
-    2.2. Cada exemplar de um livro deve ser identificado individualmente para controle de disponibilidade.
+2. **Gerenciamento de acervo**:<br>
+    2.1. Os administradores do sistema devem ter a capacidade de adicionar, atualizar e excluir informações sobre livros.<br>
+    2.2. Cada exemplar de um livro deve ser identificado individualmente para controle de disponibilidade.<br>
     2.3. O sistema deve manter informações detalhadas sobre cada livro, incluindo autor, ISBN, editora e número de cópias disponíveis.
-3. **Empréstimo e devolução**:
-    3.1. Os funcionários da biblioteca devem ser capazes de registrar empréstimos, associando um exemplar de livro a um usuário e especificando a data de empréstimo e o prazo de devolução.
-    3.2. O sistema deve calcular automaticamente a data de devolução com base no prazo estabelecido.
-    3.3. Os funcionários também devem ser capazes de registrar devoluções, atualizando o status do livro emprestado e registrando a data de devolução.
+3. **Empréstimo e devolução**:<br>
+    3.1. Os funcionários da biblioteca devem ser capazes de registrar empréstimos, associando um exemplar de livro a um usuário e especificando a data de empréstimo e o prazo de devolução.<br>
+    3.2. O sistema deve calcular automaticamente a data de devolução com base no prazo estabelecido.<br>
+    3.3. Os funcionários também devem ser capazes de registrar devoluções, atualizando o status do livro emprestado e registrando a data de devolução.<br>
     3.4. Deve haver um mecanismo para lidar com atrasos nas devoluções, incluindo cálculo de multas, se aplicável.
-4. **Pesquisa de livros**:
-    4.1. Os usuários devem poder pesquisar livros por diferentes critérios, como título, autor, gênero, IBSN e palavras-chaves.
+4. **Pesquisa de livros**:<br>
+    4.1. Os usuários devem poder pesquisar livros por diferentes critérios, como título, autor, gênero, IBSN e palavras-chaves.<br>
     4.2. Os resultados da pesquisa devem mostrar informações detalhadas sobre o livro, incluindo disponibilidade (se está emprestado ou não) e a localização na biblioteca.
-5. **Reserva de livros**:
-    5.1. Os usuários devem ser capazes de reservar livros que estão atualmente emprestados por outros usuários.
-    5.2. O sistema deve manter uma lista de reservas para cada livro, registrando os usuários que reservaram e a ordem de reservas.
-    5.3. Quando um livro reservado se tornar disponível, o sistema deve notificar o usuário que o reservou.
+5. **Reserva de livros**:<br>
+    5.1. Os usuários devem ser capazes de reservar livros que estão atualmente emprestados por outros usuários.<br>
+    5.2. O sistema deve manter uma lista de reservas para cada livro, registrando os usuários que reservaram e a ordem de reservas.<br>
+    5.3. Quando um livro reservado se tornar disponível, o sistema deve notificar o usuário que o reservou.<br>
     5.4. Durante o processo de empréstimo, o sistema deve verificar se o livro está reservado para outros usuários e priorizar o empréstimo para o usuário que fez a reserva.
 <hr>
 
